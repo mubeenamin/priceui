@@ -22,7 +22,7 @@ function Feature(props: FeatureProps) {
   );
 }
 
-export function Features() {
+export default function Features() {
   return (
     <Box maxW={"1024px"} margin="auto" pt={"48px"} pb="48px">
       <Flex direction={["column", "column", "row"]} px="48px" py="48px">
