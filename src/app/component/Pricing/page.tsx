@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { ChackIcon } from "@/icon/Icon";
-export const ListItem = (props: StackProps) => {
+const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
   return (
     <HStack as={"li"} spacing="20px" {...rest}>
