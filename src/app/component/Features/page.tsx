@@ -1,3 +1,4 @@
+"use client";
 import React, { ElementType } from "react";
 import { HStack, Icon, StackProps, Text, Box, Flex } from "@chakra-ui/react";
 import {

@@ -1,3 +1,4 @@
+
 import ChakraWrapper from "./component/chakraWrapper"
 
 export default function RootLayout({
